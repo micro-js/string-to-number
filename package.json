@@ -1,0 +1,15 @@
+{
+  "name": "@f/string-to-number",
+  "description": "Convert a string into a number.",
+  "repository": "git://github.com/micro-js/string-to-number.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
